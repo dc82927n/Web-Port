@@ -67,12 +67,50 @@
 }
 
 .aboutImage{
-    width: 100%;
+    max-width: 100%;
 }
 
 .skillsSection{
     background-color: gray;
     color: white; 
 }
+
+.skills{
+    text-align: center;
+    margin-left: 10px; 
+}
+
+.chart{
+	position: relative; 
+    width: 152px;
+    height: 152px; 
+	display: inline-block; 
+	text-align: center; 
+}
+
+
+.chart canvas{
+    position: absolute; /* put the element close to the nearest element */
+    left: 0;
+    top: 0;
+}
+
+.chart .percent{
+    color: black;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 35px;
+}
+
+.chart .percent:after{
+    content: '%';
+}
+
+
+
+
+
+
+
 
 
